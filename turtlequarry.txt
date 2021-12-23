@@ -1,0 +1,38 @@
+local pos.x = 0
+local pos.y = 0
+local pos.z = 0
+
+
+function clearConsole()
+	term.clear()
+	term.setCursorPos(1,1)
+end
+
+function fwd()
+	while turtle.forward() == false then
+		turtle.dig()
+		turtle.attack()
+	end
+end
+
+function bk()
+	while turtle.back() == false then
+		turtle.turnRighta(2)
+		turtle.dig()
+		turtle.attack()
+		turtle.turnLeft(2)
+	end
+end
+
+function right
+
+clearConsole()
+write ('Width? ')
+w = read()
+clearConsole()
+
+
+while true 
+
+	
+end
